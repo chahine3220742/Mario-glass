@@ -1,0 +1,17 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: http://localhost:3000/sitemap.xml
+
+# Important pages to crawl
+Allow: /about
+Allow: /contact
+Allow: /services/
+Allow: /services/windshield-replacement
+Allow: /services/windshield-repair
+Allow: /services/adas-calibration
+
+# Crawl delay for better server performance
+Crawl-delay: 1 
